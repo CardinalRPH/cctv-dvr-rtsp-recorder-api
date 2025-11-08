@@ -1,3 +1,4 @@
 .env
 recordings/*.mp4
 node_modules
+dist/
