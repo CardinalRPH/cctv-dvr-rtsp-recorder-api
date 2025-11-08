@@ -12,7 +12,7 @@ import { scheduleCleanup } from "./src/services/cleanup";
 dotenv.config();
 
 const RECORD_DIR = path.join(process.cwd(), "recordings");
-const RTSP_URL = variables.RTSP_URL
+const RTSP_URL = variables.RTSP_URL || ""
 
 ensureDir(RECORD_DIR)
 
