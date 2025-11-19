@@ -2,3 +2,6 @@
 recordings/*.mp4
 node_modules
 dist/
+/src/generated/prisma
+
+/src/generated/prisma
